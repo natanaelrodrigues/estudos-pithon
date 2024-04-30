@@ -1,1 +1,1 @@
-# estudos-pithon
+# estudos-python
