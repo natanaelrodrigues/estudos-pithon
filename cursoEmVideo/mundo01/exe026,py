@@ -1,0 +1,12 @@
+'''
+Faça um programa que leia uma frase pelo teclado e mostre:
+Quantas vezes aparece a letra "A"
+Em que posição ela aparece a primeia vez
+Em que posição ela aparece na última vez
+'''
+
+frase = str(input("Digite uma frase: ")).strip().upper()
+
+print('A leta "A" aparece {} na frase digitada.'.format(frase.count('A')))
+print('A primeira leta "A" apareceu na posição {}.'.format(frase.find('A')+1))
+print('A última leta "A" apareceu na posição {}.'.format(frase.rfind('A')+1))
